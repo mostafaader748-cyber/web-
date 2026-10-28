@@ -1,18 +1,11 @@
-/**
- * @license
- * SPDX-License-Identifier: Apache-2.0
- */
-
+import { useState, useEffect, useRef } from "react";
+import * as THREE from "three";
 import { GameEngine } from "./GameEngine";
 import { LEVELS, getUnlockedLevel } from "./missions";
 import { TitleScreen } from "./TitleScreen";
 import { HUD } from "./HUD";
 import { PerkModal } from "./PerkModal";
-import { HUD } from './components/HUD';
-import { PerkModal } from './components/PerkModal';
-import { GameOverModal } from './components/GameOverModal';
-import { PauseModal } from './components/PauseModal';
-import { ShopModal } from './components/ShopModal';
+import { useGamepad } from "./useGamepad";
 import { Minimap } from './components/Minimap';
 import { TouchControls } from './components/TouchControls';
 import { RotatePrompt } from './components/RotatePrompt';
