@@ -1,0 +1,6 @@
+{
+  "name": "Zombie Apocalypse",
+  "description": "An intense 3D post-apocalyptic zombie survival shooter. Fight mutant hordes, unlock weapons, and survive the ruined quarantine zone.",
+  "requestFramePermissions": [],
+  "majorCapabilities": ["MAJOR_CAPABILITY_SERVER_SIDE_GEMINI_API"]
+}
